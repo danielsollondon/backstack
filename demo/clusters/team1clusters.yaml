@@ -8,5 +8,5 @@ metadata:
 spec:
   forProvider:
     location: "West US 2"
-  providerConfigRef:
-    name: default
+    tags:
+      provisioner: crossplane
